@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: single
 title: Chocolatey:The most Ideal Method to Get Apps for Windows
 ---
 
