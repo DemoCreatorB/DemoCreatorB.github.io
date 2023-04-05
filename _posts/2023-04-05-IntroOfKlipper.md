@@ -1,6 +1,8 @@
 ---
 layout: single
-title: Chocolatey:The most Ideal Method to Get Apps for Windows
+title: Intro of Klipper, Fast and Flexible 3d Printer Operating Solution
+categories: Klipper
+tags: Klipper, 3d Printer, PINEC
 ---
 
 # What is Klipper?
