@@ -6,11 +6,11 @@ main:
     url: /categories/
   - title: "Tags"
     url: /tags/
-  - title: "Pages"
-    url: /page-archive/
-  - title: "Collections"
-    url: /collection-archive/
-  - title: "External Link"
-    url: https://google.com
+  # - title: "Pages"
+  #   url: /page-archive/
+  # - title: "Collections"
+  #   url: /collection-archive/
+  # - title: "External Link"
+  #   url: https://google.com
   - title: "Sitemap"
     url: /sitemap/
