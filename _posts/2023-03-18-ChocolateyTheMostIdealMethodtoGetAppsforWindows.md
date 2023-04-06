@@ -1,6 +1,8 @@
 ---
 layout: single
 title: Chocolatey:The most Ideal Method to Get Apps for Windows
+categories: Windows
+tags: Windows Chocolatey
 ---
 
 # What is Chocolatey?
