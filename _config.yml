@@ -12,7 +12,7 @@
 
 # theme                  : "minimal-mistakes-jekyll"
 # remote_theme           : "mmistakes/minimal-mistakes"
-minimal_mistakes_skin    : "neon"
+minimal_mistakes_skin    : "dark"
 
 # Site Settings
 locale                   : "en-US"
@@ -276,6 +276,9 @@ compress_html:
   ignore:
     envs: development
 
+lunr:
+  search_within_pages: true
+
 
 # Defaults
 defaults:
@@ -286,7 +289,7 @@ defaults:
     values:
       layout: single
       author_profile: true
-      read_time: true
-      comments: # true
+      toc: true
+      comments: true
       share: true
       related: true
