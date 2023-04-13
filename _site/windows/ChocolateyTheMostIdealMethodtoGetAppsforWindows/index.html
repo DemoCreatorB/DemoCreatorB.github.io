@@ -1,0 +1,584 @@
+<!doctype html>
+<!--
+  Minimal Mistakes Jekyll Theme 4.24.0 by Michael Rose
+  Copyright 2013-2020 Michael Rose - mademistakes.com | @mmistakes
+  Free for personal and commercial use under the MIT license
+  https://github.com/mmistakes/minimal-mistakes/blob/master/LICENSE
+-->
+<html lang="en" class="no-js">
+  <head>
+    <meta charset="utf-8">
+
+<!-- begin _includes/seo.html --><title>Chocolatey:The most Ideal Method to Get Apps for Windows - DemoCreate</title>
+<meta name="description" content="What is Chocolatey? Chocolatey is a Windows package manager that automates the installation, update, and uninstallation of software applications. It uses the NuGet packaging infrastructure and PowerShell to simplify the process, providing a centralized repository of software packages that users can easily search and install with a single command. Chocolatey also offers enterprise-level features, such as custom software package creation, multi-machine deployment management, and integration with existing IT infrastructure, making it a valuable tool for simplifying software management on Windows machines.">
+
+
+  <meta name="author" content="B">
+  
+  <meta property="article:author" content="B">
+  
+
+
+<meta property="og:type" content="article">
+<meta property="og:locale" content="en_US">
+<meta property="og:site_name" content="DemoCreate">
+<meta property="og:title" content="Chocolatey:The most Ideal Method to Get Apps for Windows">
+<meta property="og:url" content="http://localhost:4000/windows/ChocolateyTheMostIdealMethodtoGetAppsforWindows/">
+
+
+  <meta property="og:description" content="What is Chocolatey? Chocolatey is a Windows package manager that automates the installation, update, and uninstallation of software applications. It uses the NuGet packaging infrastructure and PowerShell to simplify the process, providing a centralized repository of software packages that users can easily search and install with a single command. Chocolatey also offers enterprise-level features, such as custom software package creation, multi-machine deployment management, and integration with existing IT infrastructure, making it a valuable tool for simplifying software management on Windows machines.">
+
+
+
+
+
+
+
+  <meta property="article:published_time" content="2023-03-18T00:00:00+09:00">
+
+
+
+
+
+  
+
+  
+
+
+<link rel="canonical" href="http://localhost:4000/windows/ChocolateyTheMostIdealMethodtoGetAppsforWindows/">
+
+
+
+
+<script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    
+      "@type": "Person",
+      "name": "B",
+      "url": "http://localhost:4000/"
+    
+  }
+</script>
+
+
+
+
+
+
+
+<!-- end _includes/seo.html -->
+
+
+
+  <link href="/feed.xml" type="application/atom+xml" rel="alternate" title="DemoCreate Feed">
+
+
+<!-- https://t.co/dKP3o1e -->
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<script>
+  document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/g, '') + ' js ';
+</script>
+
+<!-- For all browsers -->
+<link rel="stylesheet" href="/assets/css/main.css">
+<link rel="preload" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5/css/all.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+<noscript><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5/css/all.min.css"></noscript>
+
+
+
+    <!-- start custom head snippets -->
+
+<!-- insert favicons. use https://realfavicongenerator.net/ -->
+
+<!-- end custom head snippets -->
+
+  </head>
+
+  <body class="layout--single">
+    <nav class="skip-links">
+  <ul>
+    <li><a href="#site-nav" class="screen-reader-shortcut">Skip to primary navigation</a></li>
+    <li><a href="#main" class="screen-reader-shortcut">Skip to content</a></li>
+    <li><a href="#footer" class="screen-reader-shortcut">Skip to footer</a></li>
+  </ul>
+</nav>
+
+    
+
+<div class="masthead">
+  <div class="masthead__inner-wrap">
+    <div class="masthead__menu">
+      <nav id="site-nav" class="greedy-nav">
+        
+        <a class="site-title" href="/">
+          DemoCreate
+          <span class="site-subtitle">The space created by Demo Creator B</span>
+        </a>
+        <ul class="visible-links"><li class="masthead__menu-item">
+              <a href="/year-archive/">Posts</a>
+            </li><li class="masthead__menu-item">
+              <a href="/categories/">Categories</a>
+            </li><li class="masthead__menu-item">
+              <a href="/tags/">Tags</a>
+            </li><li class="masthead__menu-item">
+              <a href="/sitemap/">Sitemap</a>
+            </li></ul>
+        
+        <button class="search__toggle" type="button">
+          <span class="visually-hidden">Toggle search</span>
+          <i class="fas fa-search"></i>
+        </button>
+        
+        <button class="greedy-nav__toggle hidden" type="button">
+          <span class="visually-hidden">Toggle menu</span>
+          <div class="navicon"></div>
+        </button>
+        <ul class="hidden-links hidden"></ul>
+      </nav>
+    </div>
+  </div>
+</div>
+
+
+    <div class="initial-content">
+      
+
+
+
+
+
+<div id="main" role="main">
+  
+  <div class="sidebar sticky">
+  
+
+
+<div itemscope itemtype="https://schema.org/Person" class="h-card">
+
+  
+
+  <div class="author__content">
+    <h3 class="author__name p-name" itemprop="name">
+      <a class="u-url" rel="me" href="http://localhost:4000/" itemprop="url">B</a>
+    </h3>
+    
+      <div class="author__bio p-note" itemprop="description">
+        <p>I love to create something and share them to make it better</p>
+
+      </div>
+    
+  </div>
+
+  <div class="author__urls-wrapper">
+    <button class="btn btn--inverse">Follow</button>
+    <ul class="author__urls social-icons">
+      
+        <li itemprop="homeLocation" itemscope itemtype="https://schema.org/Place">
+          <i class="fas fa-fw fa-map-marker-alt" aria-hidden="true"></i> <span itemprop="name" class="p-locality">Somewhere</span>
+        </li>
+      
+
+      
+        
+          
+            <li><a href="democreatorb@gmail.com" rel="nofollow noopener noreferrer me"><i class="fas fa-fw fa-envelope-square" aria-hidden="true"></i><span class="label">Email</span></a></li>
+          
+        
+          
+        
+          
+        
+          
+        
+          
+            <li><a href="https://github.com/DemoCreatorB" rel="nofollow noopener noreferrer me" itemprop="sameAs"><i class="fab fa-fw fa-github" aria-hidden="true"></i><span class="label">GitHub</span></a></li>
+          
+        
+          
+        
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      <!--
+  <li>
+    <a href="http://link-to-whatever-social-network.com/user/" itemprop="sameAs" rel="nofollow noopener noreferrer me">
+      <i class="fas fa-fw" aria-hidden="true"></i> Custom Social Profile Link
+    </a>
+  </li>
+-->
+    </ul>
+  </div>
+</div>
+
+  
+  </div>
+
+
+
+  <article class="page h-entry" itemscope itemtype="https://schema.org/CreativeWork">
+    <meta itemprop="headline" content="Chocolatey:The most Ideal Method to Get Apps for Windows">
+    <meta itemprop="description" content="What is Chocolatey?Chocolatey is a Windows package manager that automates the installation, update, and uninstallation of software applications. It uses the NuGet packaging infrastructure and PowerShell to simplify the process, providing a centralized repository of software packages that users can easily search and install with a single command. Chocolatey also offers enterprise-level features, such as custom software package creation, multi-machine deployment management, and integration with existing IT infrastructure, making it a valuable tool for simplifying software management on Windows machines.">
+    <meta itemprop="datePublished" content="2023-03-18T00:00:00+09:00">
+    
+
+    <div class="page__inner-wrap">
+      
+        <header>
+          <h1 id="page-title" class="page__title p-name" itemprop="headline">
+            <a href="http://localhost:4000/windows/ChocolateyTheMostIdealMethodtoGetAppsforWindows/" class="u-url" itemprop="url">Chocolatey:The most Ideal Method to Get Apps for Windows
+</a>
+          </h1>
+          
+
+
+        </header>
+      
+
+      <section class="page__content e-content" itemprop="text">
+        
+          <aside class="sidebar__right ">
+            <nav class="toc">
+              <header><h4 class="nav__title"><i class="fas fa-file-alt"></i> On this page</h4></header>
+              <ul class="toc__menu"><li><a href="#what-is-chocolatey">What is Chocolatey?</a></li><li><a href="#how-to-install-chocolatey">How to Install Chocolatey?</a></li><li><a href="#how-to-install-programs-using-chocolatey">How to install programs using Chocolatey</a></li><li><a href="#check-the-list-of-installed-packages">Check the list of installed packages</a></li><li><a href="#my-settings20230315-updated">My Settings(2023.03.15. updated)</a><ul><li><a href="#browser">Browser</a></li><li><a href="#chatsmeetings">Chats|Meetings</a></li><li><a href="#software-development">Software Development</a></li><li><a href="#cadecad">Cad/Ecad</a></li><li><a href="#utils">Utils</a></li></ul></li><li><a href="#total-command">Total command</a></li></ul>
+
+            </nav>
+          </aside>
+        
+        <h1 id="what-is-chocolatey">What is Chocolatey?</h1>
+<p>Chocolatey is a Windows package manager that automates the installation, update, and uninstallation of software applications. It uses the NuGet packaging infrastructure and PowerShell to simplify the process, providing a centralized repository of software packages that users can easily search and install with a single command. Chocolatey also offers enterprise-level features, such as custom software package creation, multi-machine deployment management, and integration with existing IT infrastructure, making it a valuable tool for simplifying software management on Windows machines.</p>
+
+<h1 id="how-to-install-chocolatey">How to Install Chocolatey?</h1>
+<ol>
+  <li>
+    <p>Open PowerShell as an Administrator.<br />
+(You can do this by typing “PowerShell” into the Start menu, right-clicking on “Windows PowerShell,” and selecting “Run as Administrator.”)</p>
+  </li>
+  <li>Once PowerShell is open, run the following command:
+    <div class="language-shell highlighter-rouge"><div class="highlight"><pre class="highlight"><code>Set-ExecutionPolicy Bypass <span class="nt">-Scope</span> Process <span class="nt">-Force</span><span class="p">;</span> <span class="o">[</span>System.Net.ServicePointManager]::SecurityProtocol <span class="o">=</span> <span class="o">[</span>System.Net.ServicePointManager]::SecurityProtocol <span class="nt">-bor</span> 3072<span class="p">;</span> iex <span class="o">((</span>New-Object System.Net.WebClient<span class="o">)</span>.DownloadString<span class="o">(</span><span class="s1">'https://chocolatey.org/install.ps1'</span><span class="o">))</span>
+</code></pre></div>    </div>
+  </li>
+  <li>Wait for the installation to complete. This may take a few minutes, depending on your system.</li>
+  <li>Once the installation is complete, you can verify that Chocolatey is installed by running the following command:
+    <div class="language-shell highlighter-rouge"><div class="highlight"><pre class="highlight"><code>choco <span class="nt">-v</span>
+</code></pre></div>    </div>
+  </li>
+</ol>
+
+<h1 id="how-to-install-programs-using-chocolatey">How to install programs using Chocolatey</h1>
+<ol>
+  <li>
+    <p>Open PowerShell as an Administrator.</p>
+  </li>
+  <li>Use the choco search command to find the program you want to install. For example, if you want to install Google Chrome, you can run the following command:
+    <div class="language-shell highlighter-rouge"><div class="highlight"><pre class="highlight"><code>choco search googlechrome
+</code></pre></div>    </div>
+  </li>
+  <li>
+    <p>This will display a list of packages related to Google Chrome, including the official package for Google Chrome.</p>
+  </li>
+  <li>Use the choco install command to install the program. For example, to install Google Chrome, you can run the following command:
+    <div class="language-shell highlighter-rouge"><div class="highlight"><pre class="highlight"><code>choco <span class="nb">install </span>googlechrome
+</code></pre></div>    </div>
+  </li>
+  <li>
+    <p>This will download and install the latest version of Google Chrome on your system.</p>
+  </li>
+  <li>Wait for the installation to complete. This may take a few minutes, depending on the size of the program.</li>
+</ol>
+
+<p><a href="https://community.chocolatey.org/packages">Visit here to search packages</a></p>
+
+<h1 id="check-the-list-of-installed-packages">Check the list of installed packages</h1>
+<ol>
+  <li>
+    <p>Open PowerShell as an Administrator.</p>
+  </li>
+  <li>
+    <p>Run following commands to check the list.</p>
+    <div class="language-shell highlighter-rouge"><div class="highlight"><pre class="highlight"><code>choco list <span class="nt">-lo</span>
+</code></pre></div>    </div>
+  </li>
+</ol>
+
+<h1 id="my-settings20230315-updated">My Settings(2023.03.15. updated)</h1>
+<h2 id="browser">Browser</h2>
+<ul>
+  <li><a href="https://community.chocolatey.org/packages/GoogleChrome">Google Chrome</a>
+    <h2 id="chatsmeetings">Chats|Meetings</h2>
+  </li>
+  <li><a href="https://community.chocolatey.org/packages/kakaotalk">KakaoTalk</a></li>
+  <li><a href="https://community.chocolatey.org/packages/discord">Discord</a></li>
+  <li><a href="https://community.chocolatey.org/packages/slack">Slack</a></li>
+  <li><a href="https://community.chocolatey.org/packages/zoom">zoom</a></li>
+</ul>
+
+<h2 id="software-development">Software Development</h2>
+<ul>
+  <li><a href="https://community.chocolatey.org/packages/git">git</a></li>
+  <li><a href="https://community.chocolatey.org/packages/vim">vim</a></li>
+  <li><a href="https://community.chocolatey.org/packages/vscode">vscode</a></li>
+  <li><a href="https://community.chocolatey.org/packages/python3/3.11.0">python3</a></li>
+  <li><a href="https://community.chocolatey.org/packages/unity-hub">Unity Hub</a>
+    <h2 id="cadecad">Cad/Ecad</h2>
+  </li>
+  <li><a href="https://community.chocolatey.org/packages/kicad">Kicad</a>
+    <h2 id="utils">Utils</h2>
+  </li>
+  <li><a href="https://community.chocolatey.org/packages/7zip.install">7-Zip</a></li>
+  <li><a href="https://community.chocolatey.org/packages/Everything">everything</a></li>
+  <li><a href="https://community.chocolatey.org/packages/treesizefree">Treesize</a></li>
+  <li><a href="https://community.chocolatey.org/packages/putty.install">Putty</a></li>
+  <li><a href="https://community.chocolatey.org/packages/powertoys">Power Toys</a>
+    <h1 id="total-command">Total command</h1>
+    <div class="language-shell highlighter-rouge"><div class="highlight"><pre class="highlight"><code>Set-ExecutionPolicy Bypass <span class="nt">-Scope</span> Process <span class="nt">-Force</span><span class="p">;</span> <span class="o">[</span>System.Net.ServicePointManager]::SecurityProtocol <span class="o">=</span> <span class="o">[</span>System.Net.ServicePointManager]::SecurityProtocol <span class="nt">-bor</span> 3072<span class="p">;</span> iex <span class="o">((</span>New-Object System.Net.WebClient<span class="o">)</span>.DownloadString<span class="o">(</span><span class="s1">'https://chocolatey.org/install.ps1'</span><span class="o">))</span>
+choco <span class="nb">install </span>googlechrome
+choco <span class="nb">install </span>kakaotalk
+choco <span class="nb">install </span>discord
+choco <span class="nb">install </span>slack
+choco <span class="nb">install </span>zoom
+choco <span class="nb">install </span>git
+choco <span class="nb">install </span>vscode
+choco <span class="nb">install </span>vim
+choco <span class="nb">install </span>python3 
+choco <span class="nb">install </span>unity-hub
+choco <span class="nb">install </span>kicad
+choco <span class="nb">install </span>7zip.install
+choco <span class="nb">install </span>everything
+choco <span class="nb">install </span>treesizefree
+choco <span class="nb">install </span>putty.install
+choco <span class="nb">install </span>powertoys
+</code></pre></div>    </div>
+  </li>
+</ul>
+
+        
+      </section>
+
+      <footer class="page__meta">
+        
+        
+  
+
+
+  
+
+  <p class="page__taxonomy">
+    <strong><i class="fas fa-fw fa-tags" aria-hidden="true"></i> Tags: </strong>
+    <span itemprop="keywords">
+    
+      <a href="/tags/#chocolatey" class="page__taxonomy-item p-category" rel="tag">Chocolatey</a><span class="sep">, </span>
+    
+      <a href="/tags/#windows" class="page__taxonomy-item p-category" rel="tag">Windows</a>
+    
+    </span>
+  </p>
+
+
+
+
+  
+
+
+  
+
+  <p class="page__taxonomy">
+    <strong><i class="fas fa-fw fa-folder-open" aria-hidden="true"></i> Categories: </strong>
+    <span itemprop="keywords">
+    
+      <a href="/categories/#windows" class="page__taxonomy-item p-category" rel="tag">Windows</a>
+    
+    </span>
+  </p>
+
+
+        
+
+  <p class="page__date"><strong><i class="fas fa-fw fa-calendar-alt" aria-hidden="true"></i> Updated:</strong> <time class="dt-published" datetime="2023-03-18T00:00:00+09:00">March 18, 2023</time></p>
+
+      </footer>
+
+      <section class="page__share">
+  
+    <h4 class="page__share-title">Share on</h4>
+  
+
+  <a href="https://twitter.com/intent/tweet?text=Chocolatey%3AThe+most+Ideal+Method+to+Get+Apps+for+Windows%20http%3A%2F%2Flocalhost%3A4000%2Fwindows%2FChocolateyTheMostIdealMethodtoGetAppsforWindows%2F" class="btn btn--twitter" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on Twitter"><i class="fab fa-fw fa-twitter" aria-hidden="true"></i><span> Twitter</span></a>
+
+  <a href="https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2Flocalhost%3A4000%2Fwindows%2FChocolateyTheMostIdealMethodtoGetAppsforWindows%2F" class="btn btn--facebook" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on Facebook"><i class="fab fa-fw fa-facebook" aria-hidden="true"></i><span> Facebook</span></a>
+
+  <a href="https://www.linkedin.com/shareArticle?mini=true&url=http%3A%2F%2Flocalhost%3A4000%2Fwindows%2FChocolateyTheMostIdealMethodtoGetAppsforWindows%2F" class="btn btn--linkedin" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on LinkedIn"><i class="fab fa-fw fa-linkedin" aria-hidden="true"></i><span> LinkedIn</span></a>
+</section>
+
+
+      
+  <nav class="pagination">
+    
+      <a href="#" class="pagination--pager disabled">Previous</a>
+    
+    
+      <a href="/klipper/IntroOfKlipper/" class="pagination--pager" title="Intro of Klipper, Fast and Flexible 3d Printer Operating Solution
+">Next</a>
+    
+  </nav>
+
+    </div>
+
+    
+  </article>
+
+  
+  
+    <div class="page__related">
+      <h2 class="page__related-title">You may also enjoy</h2>
+      <div class="grid__wrapper">
+        
+          
+
+
+
+<div class="grid__item">
+  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
+    
+    <h2 class="archive__item-title no_toc" itemprop="headline">
+      
+        <a href="/klipper/IntroOfKlipper/" rel="permalink">Intro of Klipper, Fast and Flexible 3d Printer Operating Solution
+</a>
+      
+    </h2>
+    
+
+
+    <p class="archive__item-excerpt" itemprop="description">What is Klipper?
+Klipper is an open-source firmware that allows 3D printers to use a single-board computer (SBC) as their main controller, instead of relying...</p>
+  </article>
+</div>
+
+        
+      </div>
+    </div>
+  
+  
+</div>
+
+    </div>
+
+    
+      <div class="search-content">
+        <div class="search-content__inner-wrap"><form class="search-content__form" onkeydown="return event.key != 'Enter';" role="search">
+    <label class="sr-only" for="search">
+      Enter your search term...
+    </label>
+    <input type="search" id="search" class="search-input" tabindex="-1" placeholder="Enter your search term..." />
+  </form>
+  <div id="results" class="results"></div></div>
+
+      </div>
+    
+
+    <div id="footer" class="page__footer">
+      <footer>
+        <!-- start custom footer snippets -->
+
+<!-- end custom footer snippets -->
+        <div class="page__footer-follow">
+  <ul class="social-icons">
+    
+      <li><strong>Follow:</strong></li>
+    
+
+    
+      
+        
+      
+        
+      
+        
+          <li><a href="https://github.com/DemoCreatorB" rel="nofollow noopener noreferrer"><i class="fab fa-fw fa-github" aria-hidden="true"></i> GitHub</a></li>
+        
+      
+        
+      
+        
+      
+        
+      
+    
+
+    
+      <li><a href="/feed.xml"><i class="fas fa-fw fa-rss-square" aria-hidden="true"></i> Feed</a></li>
+    
+  </ul>
+</div>
+
+<div class="page__footer-copyright">&copy; 2023 B. Powered by <a href="https://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="nofollow">Minimal Mistakes</a>.</div>
+
+      </footer>
+    </div>
+
+    
+  <script src="/assets/js/main.min.js"></script>
+
+
+
+
+<script src="/assets/js/lunr/lunr.min.js"></script>
+<script src="/assets/js/lunr/lunr-store.js"></script>
+<script src="/assets/js/lunr/lunr-en.js"></script>
+
+
+
+
+
+
+
+  </body>
+</html>
