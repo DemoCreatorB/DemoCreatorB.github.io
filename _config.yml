@@ -231,7 +231,7 @@ plugins:
   - jekyll-feed
   - jekyll-include-cache
   ##----Custom
-  - jekyll-archives
+  #- jekyll-archives
   - jekyll-sitemap
   
   
