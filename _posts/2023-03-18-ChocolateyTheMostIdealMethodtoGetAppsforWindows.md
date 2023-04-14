@@ -1,5 +1,5 @@
 ---
-layout: single
+layout: post
 title: Chocolatey:The most Ideal Method to Get Apps for Windows
 categories: Windows, Chocolatey
 tags: Windows Chocolatey
