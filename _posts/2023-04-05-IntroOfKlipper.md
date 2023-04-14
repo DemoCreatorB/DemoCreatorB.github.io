@@ -1,7 +1,7 @@
 ---
 layout: single
 title: Intro of Klipper, Fast and Flexible 3d Printer Operating Solution
-categories: Klipper
+categories: 3D Printer, Klipper
 tags: Klipper 3d_Printer PINEC
 ---
 
